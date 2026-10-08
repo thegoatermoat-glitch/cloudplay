@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@theme inline {
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-border: rgba(255,255,255,.15);
+  --color-ring: #ffffff;
+}
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html { background: #000; }
+body { margin: 0; background: #000; color: #fff; font-family: Arial, Helvetica, sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 1px solid #fff; outline-offset: 3px; }
+::selection { background: #fff; color: #000; }
